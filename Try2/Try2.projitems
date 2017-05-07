@@ -9,5 +9,6 @@
     <Import_RootNamespace>Try2</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Foo.cs" />
   </ItemGroup>
 </Project>

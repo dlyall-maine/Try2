@@ -5,9 +5,27 @@ VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Try2", "Try2\Try2.shproj", "{5E432BD2-7264-44AD-9910-20C534A0CBF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{026E07A2-386A-44D2-9BC3-6F3509C08AA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary2", "ClassLibrary2\ClassLibrary2.csproj", "{0E83BF2A-7B99-4A90-831E-D6DADCDD21E1}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Try2\Try2.projitems*{5e432bd2-7264-44ad-9910-20c534a0cbf4}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{026E07A2-386A-44D2-9BC3-6F3509C08AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026E07A2-386A-44D2-9BC3-6F3509C08AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026E07A2-386A-44D2-9BC3-6F3509C08AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026E07A2-386A-44D2-9BC3-6F3509C08AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E83BF2A-7B99-4A90-831E-D6DADCDD21E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E83BF2A-7B99-4A90-831E-D6DADCDD21E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E83BF2A-7B99-4A90-831E-D6DADCDD21E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E83BF2A-7B99-4A90-831E-D6DADCDD21E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
