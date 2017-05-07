@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Try2
 {
-    class Foo
+    public class Foo
     {
         public int Number;
 
